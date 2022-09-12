@@ -1,0 +1,6 @@
+El comando HEALTHCHECK comprueba si el contenedor esta funcionando le dice cómo probar un determinado container de Docker para verificar si aún se encuentra realizando sus labores. Permite detectar errores. Verifica el estado del container y proceso de inhabilitación de cualquiera de los controles de salud que pudieran haber sido heredados por la base imagen o imagen base.
+
+El comando ONBUILD permite establecer disparadores dentro de una imagen. Los disparadores se disparan mas tarde, cuando la imagen se utilice como base para otra. Se convertirán en parte del nuevo contexto de la imagen descendente y no serán niveles de sistema de archivos en su docker build.
+
+El comando VOLUME es una carpeta física en nuestro equipos donde se almacenan datos del contenedor. Estos volúmenes se especifican en el fichero Dockerfile.
+Podemos ver por ejemplo en el fichero Dockerfile de la imagen de mariadb. Aquí podemos ver como crea un volumen en /var/lib/mysql a través de la sentencia VOLUME /var/lib/mysql . Esto significa que el contenido de la carpeta de /var/lib/mysql se encontrará dentro del sistema anfitrión como un volumen,
