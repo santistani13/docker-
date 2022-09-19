@@ -1,0 +1,1 @@
+Buenas profe, dejo el link del repositorio en docker hub https://hub.docker.com/layers/sstanicio/red-hat/ejercicio06/images/sha256-6d64ff70b510fe8c8f81bb7c7f7caedf72905a5d3536a4f2b04ea88344fa0b1b?context=repo
